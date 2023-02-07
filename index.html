@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App JS</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class="background">
+
+    <div class="flexbox">
+        <div class="TasksHeading"><b>Tasks</b>Lists</div>
+        <div class="AddItemHeading"><button  class="plus" id="plusButton"><i class="fa fa-plus-circle" style="font-size:40px;color:aqua"></i></button><span class="addItemSize">Add Item</span></div>
+    </div>
+  
+    <div>
+        <div id="rows" class="rowflex">
+
+        </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            Add New list
+            <input type="text" class="AddNewList" placeholder="Add New List" id="listNameInput">
+            <button class="add" id="add">Add</button><button class="close" id="close">Close</button>
+        </div>
+    </div>
+    <div class="popup2" id="popup2">
+        <div class="popup-content">
+            Add New list
+            <input type="text" class="AddNewList" placeholder="Add New List" id="listNameInput2">
+            <button class="add" id="add2">Add</button><button class="close" id="close2">Close</button>
+        </div>
+    </div>
+
+    <div class="row2" >
+        <div>
+            <ul id="list" >
+            </ul>
+        </div>
+    </div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>

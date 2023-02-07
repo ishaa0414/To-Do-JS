@@ -1,0 +1,105 @@
+.background{
+    background-color:black;
+}
+.TasksHeading{
+    color:white;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top:5%;
+}
+.AddItemHeading{
+    color:white;
+    font-family: sans-serif;
+    font-size: 35px;
+    margin-top:5%;
+    width: 200px;
+}
+.flexbox{
+    display:flex;
+    justify-content: space-around;
+}
+.plus{
+background-color: black;
+margin-right:20%;
+}
+.body{
+    color:white;
+    font-family: sans-serif;
+    text-align: left;
+}
+.popup{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    display:none;
+    justify-content:center;
+    align-items:center;
+}
+.popup-content{
+    height:100px;
+    width:300px;
+    border:1px solid orange;
+    background-color: white;
+    padding:20px;
+    border-radius:10px;
+    position:relative;
+    text-align:center;
+}
+input{
+    display:block;
+    margin-left:50px;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:50%;
+    text-align:center;
+}
+.add{
+    margin-right:5px;
+    cursor: pointer;
+}
+.close{
+    margin-left:5px;
+    cursor: pointer;
+}
+.rowflex{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right:15% ;
+    margin-left: 15%;
+}
+.fa-trash{
+    color:red;
+    font-size:24px;
+    position:relative fixed;
+    top:80%;
+ left: 70%;
+}
+.fa-plus-circle{
+color: aqua;
+font-size: 34px;
+position: relative fixed;
+top: 80%;
+left: 65%;
+}
+.addItemSize{
+    font-size:26px;
+}
+.popInternal{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+.popup2{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0%;
+    display:none;
+    justify-content:center;
+    align-items:center; 
+}
+ul{
+    list-style-type: none;
+}
